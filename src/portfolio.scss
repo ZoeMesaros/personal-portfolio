@@ -1,3 +1,14 @@
 body {
-    background-color: red;
+  background-image: url(../public/assets/green-monstera.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  img {
+    background-image: url(../public/assets/zoeneon.png);
+  }
 }
