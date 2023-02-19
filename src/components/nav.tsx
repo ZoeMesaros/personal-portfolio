@@ -3,23 +3,23 @@ import { ReactDOM } from "react";
 
 const NavLinks = [
   {
-    Name: "home",
+    Name: "#home",
     IconName: "fa-solid fa-house fa-xs",
   },
   {
-    Name: "about",
+    Name: "#about",
     IconName: "fa-solid fa-user fa-xs",
   },
   {
-    Name: "skills",
+    Name: "#skills",
     IconName: "fa-solid fa-star fa-xs",
   },
   {
-    Name: "projects",
+    Name: "#projects",
     IconName: "fa-solid fa-pen-to-square fa-xs",
   },
   {
-    Name: "contact",
+    Name: "#contact",
     IconName: "fa-solid fa-envelope fa-xs",
   },
 ];
@@ -28,7 +28,7 @@ export const CreateNav = () => (
   <ul className="navUl">
     {NavLinks.map((links, index): any => (
       <li key={"Navitem_" + index}>
-        <a id={links.Name}>
+        <a href={links.Name}>
           <i className={links.IconName}></i>
         </a>
       </li>
