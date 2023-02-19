@@ -10,17 +10,36 @@ body {
 .helloText {
   display: flex;
   padding-left: 40%;
-  padding-top: 10%;
+  padding-top: 7%;
   img {
-    width: 30%;
+    width: 12%;
   }
 }
 
 .neonText {
   display: flex;
-  padding-left: 50%;
-  padding-top: -15%;
+  padding-left: 38%;
+  transform: translateY(-37%);
   img {
     width: 40%;
+  }
+}
+
+.neonDev {
+  display: flex;
+  padding-left: 41%;
+  padding-top: 17%;
+  img {
+    width: 30%;
+  }
+}
+
+.linkIcon {
+  padding-left: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  span {
+    color: rgba(52, 70, 52, 0.51);
   }
 }
