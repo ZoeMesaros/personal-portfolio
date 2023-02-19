@@ -1,14 +1,2 @@
-body {
-  background-image: url(../public/assets/monstera-leafy.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-figure {
-  display: flex;
-  justify-content: center;
-  img {
-    background-image: url(../public/assets/zoeneon.png);
-  }
-}
+@import "./scss/variables.scss";
+@import "./scss/mixins.scss";

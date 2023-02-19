@@ -1,0 +1,26 @@
+body {
+  background-image: url(../public/assets/monstera-leafy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.helloText {
+  display: flex;
+  padding-left: 40%;
+  padding-top: 10%;
+  img {
+    width: 30%;
+  }
+}
+
+.neonText {
+  display: flex;
+  padding-left: 50%;
+  padding-top: -15%;
+  img {
+    width: 40%;
+  }
+}
