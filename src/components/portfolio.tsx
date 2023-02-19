@@ -1,5 +1,4 @@
 import React from "react";
-import { normalize } from "path";
 import "../portfolio.scss";
 import "../reset.scss";
 import "../nav.scss";

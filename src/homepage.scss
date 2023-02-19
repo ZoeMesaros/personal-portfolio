@@ -9,17 +9,16 @@ body {
 
 .helloText {
   display: flex;
-  padding-left: 40%;
-  padding-top: 7%;
+  transform: translateX(40%) translateY(-200%);
   img {
-    width: 12%;
+    width: 7%;
   }
 }
 
 .neonText {
   display: flex;
   padding-left: 38%;
-  transform: translateY(-37%);
+  transform: translateY(-120%);
   img {
     width: 40%;
   }
@@ -28,17 +27,19 @@ body {
 .neonDev {
   display: flex;
   padding-left: 41%;
-  padding-top: 17%;
+  padding-top: 8%;
   img {
     width: 30%;
   }
 }
 
 .linkIcon {
-  padding-left: 65%;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  transform: translateY(310px) translateX(-35px);
+  padding-left: 65%;
+  padding-top: 28px;
+  padding-bottom: 20px;
   span {
     color: rgba(52, 70, 52, 0.51);
   }

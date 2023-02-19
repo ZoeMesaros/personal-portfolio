@@ -5,6 +5,7 @@ export class HomePage extends React.Component {
   render() {
     return (
       <main className="homePage">
+        <GenerateLinks />
         <figure className="helloText">
           <img src="./assets/Hello.png" alt="pink neon developer logo" />
         </figure>
@@ -14,7 +15,6 @@ export class HomePage extends React.Component {
         <figure className="neonDev">
           <img src="./assets/neonDevblue.png" alt="pink neon developer logo" />
         </figure>
-        <GenerateLinks />
       </main>
     );
   }
