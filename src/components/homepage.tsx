@@ -4,7 +4,7 @@ import "../homepage.scss";
 export class HomePage extends React.Component {
   render() {
     return (
-      <main className="homePage">
+      <main id="home">
         <GenerateLinks />
         <figure className="helloText">
           <img src="./assets/Hello.png" alt="pink neon developer logo" />
