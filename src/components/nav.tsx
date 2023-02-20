@@ -4,23 +4,23 @@ import { ReactDOM } from "react";
 const NavLinks = [
   {
     Name: "#home",
-    IconName: "fa-solid fa-house fa-xs",
+    IconName: "fa-solid fa-house fa-sm",
   },
   {
     Name: "#about",
-    IconName: "fa-solid fa-user fa-xs",
+    IconName: "fa-solid fa-circle-user",
   },
   {
     Name: "#skills",
-    IconName: "fa-solid fa-star fa-xs",
+    IconName: "fa-solid fa-star fa-sm",
   },
   {
     Name: "#projects",
-    IconName: "fa-solid fa-pen-to-square fa-xs",
+    IconName: "fa-solid fa-pen-to-square fa-sm",
   },
   {
     Name: "#contact",
-    IconName: "fa-solid fa-envelope fa-xs",
+    IconName: "fa-solid fa-envelope fa-sm",
   },
 ];
 
