@@ -5,10 +5,139 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
   height: 100vh;
   width: 100%;
+  @include m.sm {
+    align-items: center;
+  }
 }
 
+.imgContainer {
+  margin-top: 30%;
+  width: 80%;
+  height: 0;
+  padding-bottom: calc(80% * 9 / 16);
+  position: relative;
+  @include m.sm {
+    margin-bottom: 100%;
+  }
+  @include m.md {
+    margin-bottom: 55%;
+  }
+  @include m.lg {
+    margin: 0;
+  }
+  .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include m.sm {
+      height: 150%;
+    }
+    @include m.md {
+      height: 120%;
+    }
+    @include m.lg {
+      height: 100%;
+    }
+    .helloText {
+      margin-bottom: 40%;
+      position: absolute;
+      z-index: 1;
+      padding-left: 15%;
+      @include m.md {
+        padding-left: 28%;
+      }
+      @include m.md {
+        padding-left: 25%;
+      }
+      @include m.xl {
+        padding-top: 2%;
+        padding-left: 15%;
+      }
+      img {
+        width: 35%;
+        @include m.md {
+          width: 20%;
+        }
+        @include m.lg {
+          width: 20%;
+        }
+        @include m.xl {
+          width: 20%;
+        }
+      }
+    }
+    .neonText {
+      margin-bottom: 25%;
+      position: absolute;
+      z-index: 1;
+      padding-left: 5%;
+      @include m.md {
+        padding-left: 25%;
+        margin-bottom: 30%;
+      }
+      @include m.lg {
+        padding-left: 20%;
+        margin-bottom: 32%;
+      }
+      @include m.xl {
+        padding-left: 12%;
+        margin-bottom: 32%;
+      }
+      img {
+        width: 98%;
+        @include m.md {
+          width: 74%;
+        }
+        @include m.lg {
+          width: 65%;
+        }
+        @include m.xl {
+          width: 67%;
+        }
+      }
+    }
+    .neonDev {
+      padding-top: 120%;
+      position: absolute;
+      z-index: 1;
+      padding-left: 20%;
+      @include m.md {
+        padding-top: 45%;
+        padding-left: 30%;
+      }
+      @include m.lg {
+        padding-top: 32%;
+        padding-left: 25%;
+      }
+      @include m.xl {
+        padding-top: 32%;
+        padding-left: 20%;
+      }
+      img {
+        width: 80%;
+        @include m.md {
+          width: 60%;
+        }
+        @include m.lg {
+          width: 60%;
+        }
+        @include m.xl {
+          width: 55%;
+        }
+      }
+    }
+  }
+}
+/* 
 .imgContainer {
   position: relative;
   margin: 0 auto;
@@ -99,7 +228,7 @@
     }
     @include m.xl {
       padding-top: 30%;
-      padding-left: 36%;
+      padding-left: 38%;
     }
     img {
       width: 80%;
@@ -113,12 +242,12 @@
         width: 50%;
       }
       @include m.xl {
-        width: 42%;
+        width: 40%;
       }
     }
   }
 }
-
+ */
 .linkIcon {
   /*  width: 5%;
   display: flex;
