@@ -11,7 +11,7 @@ const SocialLinks = [
   },
   {
     Name: "GitHub",
-    iconName: "fa-brands fa-github  fa-stack-1x fa-inverse",
+    iconName: "fa-brands fa-github fa-stack-1x fa-inverse",
     Link: "https://github.com/ZoeMesaros",
   },
 ];

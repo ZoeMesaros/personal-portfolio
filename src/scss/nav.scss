@@ -1,14 +1,25 @@
+@use "mixins" as m;
+
 .navUl {
   position: fixed;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 100vh;
-  width: 50px;
   background-color: rgba(27, 36, 27, 0.454);
   i {
     padding: 10px;
     color: rgb(255, 255, 255);
+  }
+  @include m.xs {
+    flex-direction: row;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+  }
+  @include m.lg {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 50px;
   }
 }
