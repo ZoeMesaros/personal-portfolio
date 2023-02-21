@@ -55,9 +55,6 @@
       @include m.md {
         padding-left: 28%;
       }
-      @include m.md {
-        padding-left: 25%;
-      }
       @include m.xl {
         padding-top: 2%;
         padding-left: 15%;
@@ -65,12 +62,6 @@
       img {
         width: 35%;
         @include m.md {
-          width: 20%;
-        }
-        @include m.lg {
-          width: 20%;
-        }
-        @include m.xl {
           width: 20%;
         }
       }
@@ -90,7 +81,6 @@
       }
       @include m.xl {
         padding-left: 12%;
-        margin-bottom: 32%;
       }
       img {
         width: 98%;
@@ -119,15 +109,11 @@
         padding-left: 25%;
       }
       @include m.xl {
-        padding-top: 32%;
         padding-left: 20%;
       }
       img {
         width: 80%;
         @include m.md {
-          width: 60%;
-        }
-        @include m.lg {
           width: 60%;
         }
         @include m.xl {
@@ -137,117 +123,7 @@
     }
   }
 }
-/* 
-.imgContainer {
-  position: relative;
-  margin: 0 auto;
-  max-width: 90%;
-  min-height: 70%;
-  .helloText {
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    padding-left: 15%;
-    padding-top: 35%;
-    @include m.sm {
-      padding-top: 23%;
-    }
-    @include m.md {
-      padding-top: 15%;
-      padding-left: 30%;
-    }
-    @include m.lg {
-      padding-left: 35%;
-      padding-top: 1.5%;
-    }
-    @include m.xl {
-      padding-top: 3%;
-      padding-left: 38%;
-    }
-    img {
-      width: 40%;
-      @include m.sm {
-        width: 30%;
-      }
-      @include m.md {
-        width: 25%;
-      }
-      @include m.lg {
-        width: 25%;
-      }
-    }
-  }
-  .neonText {
-    position: absolute;
-    z-index: 2;
-    display: flex;
-    padding-left: 10%;
-    padding-top: 39%;
-    @include m.sm {
-      padding-top: 23%;
-    }
-    @include m.md {
-      padding-top: 16%;
-      padding-left: 25%;
-    }
-    @include m.lg {
-      padding-top: 3%;
-      padding-left: 32%;
-    }
-    @include m.xl {
-      padding-top: 3%;
-      padding-left: 35%;
-    }
-    img {
-      width: 90%;
-      @include m.md {
-        width: 70%;
-      }
-      @include m.lg {
-        width: 65%;
-      }
-      @include m.xl {
-        width: 80%;
-      }
-    }
-  }
-  .neonDev {
-    display: flex;
-    padding-left: 20%;
-    padding-top: 115%;
-    @include m.sm {
-      padding-top: 80%;
-    }
-    @include m.md {
-      padding-top: 64%;
-      padding-left: 30%;
-    }
-    @include m.lg {
-      padding-top: 45%;
-      padding-left: 36%;
-    }
-    @include m.xl {
-      padding-top: 30%;
-      padding-left: 38%;
-    }
-    img {
-      width: 80%;
-      @include m.sm {
-        width: 80%;
-      }
-      @include m.md {
-        width: 60%;
-      }
-      @include m.lg {
-        width: 50%;
-      }
-      @include m.xl {
-        width: 40%;
-      }
-    }
-  }
-}
- */
+
 .linkIcon {
   /*  width: 5%;
   display: flex;
