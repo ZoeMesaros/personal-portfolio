@@ -16,17 +16,41 @@ const SocialLinks = [
   },
 ];
 
-export const GenerateLinks = () => (
+const GenerateLinks = () => (
   <>
     {SocialLinks.map((links, index) => (
-      <div className="linkIcon" key={index}>
-        <a href={links.Link} target="_blank" rel="noopener noreferrer">
-          <span className="fa-stack fa-lg">
-            <i className="fa fa-circle fa-stack-2x"></i>
-            <i className={links.iconName}></i>
-          </span>
-        </a>
-      </div>
+      <a
+        className="bigLinks"
+        key={index}
+        href={links.Link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span className="fa-stack fa-lg">
+          <i className="fa fa-circle fa-stack-2x"></i>
+          <i className={links.iconName}></i>
+        </span>
+      </a>
     ))}
   </>
 );
+
+const GenerateLinksSmall = () => {
+  return (
+    <a className="smallLinks" href={SocialLinks[0].Link}>
+      <span className="fa-stack">
+        <i className="fa fa-circle fa-stack-2x"></i>
+        <i className={SocialLinks[0].iconName}></i>
+      </span>
+    </a>
+  );
+};
+
+export const SocialMediaLinks = () => {
+  return (
+    <div className="linkIcon">
+      <GenerateLinks />
+      <GenerateLinksSmall />
+    </div>
+  );
+};

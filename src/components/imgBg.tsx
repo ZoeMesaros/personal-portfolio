@@ -1,6 +1,7 @@
 import helloImg from "../assets/hello.png";
 import neonName from "../assets/neonName.png";
 import neonDev from "../assets/devBlue.png";
+import { SocialMediaLinks } from "./socialLinks";
 
 export const BgImg = () => {
   return (
@@ -15,6 +16,7 @@ export const BgImg = () => {
         <figure className="neonDev">
           <img src={neonDev} alt="web developer in blue neon letters" />
         </figure>
+        <SocialMediaLinks />
       </div>
     </div>
   );
