@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/about.scss";
+import "./about.scss";
 
 export const AboutMe = () => {
   return <section id="about"></section>;

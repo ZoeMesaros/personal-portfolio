@@ -1,4 +1,5 @@
-@use "mixins" as m;
+@use "../styles/mixins";
+@use "../styles/variables";
 
 .navUl {
   position: fixed;
@@ -10,13 +11,13 @@
     padding: 10px;
     color: rgb(255, 255, 255);
   }
-  @include m.xs {
+  @include mixins.xs {
     flex-direction: row;
     bottom: 0;
     height: 50px;
     width: 100%;
   }
-  @include m.lg {
+  @include mixins.lg {
     flex-direction: column;
     align-items: center;
     height: 100vh;

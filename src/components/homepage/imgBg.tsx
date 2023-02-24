@@ -1,6 +1,6 @@
-import helloImg from "../assets/hello.png";
-import neonName from "../assets/neonName.png";
-import neonDev from "../assets/devBlue.png";
+import helloImg from "../../assets/hello.png";
+import neonName from "../../assets/neonName.png";
+import neonDev from "../../assets/devBlue.png";
 import { SocialMediaLinks } from "./socialLinks";
 
 export const BgImg = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/homepage.scss";
+import "./homepage.scss";
 import { BgImg } from "./imgBg";
 
 export const HomePage = () => {
