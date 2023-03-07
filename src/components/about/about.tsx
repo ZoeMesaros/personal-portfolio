@@ -12,7 +12,7 @@ export const AboutMe = () => {
           </legend>
           <p>
             My name is Zoë, I'm a developer student at Medieinstitutet in
-            Stockholm, Sweden specializing in E-commerce. Before this school I
+            Stockholm specializing in E-commerce. Before starting this school I
             had no previous experience with programming but I have always loved
             computers. Immediately when I started this course I knew I had ended
             up in the right place. My school is providing basic knowledge in
