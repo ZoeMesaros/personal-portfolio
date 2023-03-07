@@ -6,28 +6,28 @@ export const Skills = () => {
     <section id="skills">
       <h1>Personal skills and tools</h1>
       <div className="container">
-        <fieldset className="front">
+        <fieldset>
           <legend>Frontend</legend>
           <p className="icons">
-            <i className="fa-brands fa-html5"></i>
-            <i className="fa-brands fa-css3-alt"></i>
-            <i className="fa-brands fa-sass"></i>
-            <i className="fi fi-brands-js"></i>
+            <i className="fa-brands fa-html5 fa-xl"></i>
+            <i className="fa-brands fa-css3-alt fa-xl"></i>
+            <i className="fa-brands fa-sass fa-xl"></i>
+            <i className="fa-brands fa-js fa-lg"></i>
             <i className="fi fi-brands-typescript"></i>
-            <i className="fa-brands fa-react"></i>
+            <i className="fa-brands fa-react fa-xl"></i>
           </p>
         </fieldset>
-        <fieldset className="back">
+        <fieldset>
           <legend>Backend</legend>
           <p className="icons">
             MySQL Workbench<i className="fi fi-brands-mysql"></i>
           </p>
         </fieldset>
-        <fieldset className="tools">
+        <fieldset>
           <legend>Tools</legend>
           <p className="icons">
-            <i className="fa-brands fa-figma"></i>
-            <i className="fa-brands fa-git-alt"></i>
+            <i className="fa-brands fa-figma fa-xl"></i>
+            <i className="fa-brands fa-git-alt fa-xl"></i>
             <i className="fi fi-brands-photoshop"></i>
           </p>
         </fieldset>
