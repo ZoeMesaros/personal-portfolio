@@ -1,7 +1,7 @@
 #skills {
   width: 100%;
   height: 100vh;
-  background-color: rgb(124, 6, 6);
+  background-color: rgb(54, 54, 54);
 }
 
 h1 {
@@ -13,36 +13,35 @@ h1 {
 }
 
 .container {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 15%;
+  padding: 10%;
   justify-content: space-around;
-  max-width: 70%;
-  max-height: 80%;
+  max-width: 80%;
   background-color: rgb(54, 54, 54);
   fieldset {
+    width: 25%;
     border-radius: 8px;
     -webkit-box-shadow: 0px 0px 51px 8px rgba(245, 44, 232, 0.81);
     -moz-box-shadow: 0px 0px 51px 8px rgba(245, 44, 232, 0.81);
-    box-shadow: 0px 0px 51px 8px rgba(245, 44, 232, 0.81);
+    box-shadow: 0px 0px 30px 8px rgba(128, 0, 255, 0.81);
+    .icons {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      color: white;
+      margin: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-around;
+    }
     legend {
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      font-size: 1.2em;
       width: 30%;
       margin-left: 50px;
-      h1 {
-        border: 0;
-        margin: 15px;
-        font-size: 3em;
-        font-family: "Segoe";
-        color: white;
-      }
-    }
-    p {
-      color: white;
-      line-height: 1.5em;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
-      padding: 15%;
     }
   }
 }
