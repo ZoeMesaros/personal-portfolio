@@ -34,7 +34,7 @@ h1 {
 
 .container {
   position: relative;
-  padding-left: 5%;
+  padding-left: 3%;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@ h1 {
   @include m.lg {
     margin-top: 1%;
   }
-  fieldset {
+  .front {
     position: relative;
     background-color: rgba(54, 54, 54, 0.744);
     margin: 20%;
@@ -65,8 +65,8 @@ h1 {
     }
     @include m.md {
       margin-bottom: -5%;
-      margin-left: 15%;
-      margin-right: 15%;
+      padding-left: 10%;
+      padding-right: 10%;
       width: 25%;
     }
     @include m.lg {
@@ -75,6 +75,70 @@ h1 {
       margin: 3%;
       width: 20%;
     }
+  }
+
+  .back {
+    position: relative;
+    background-color: rgba(54, 54, 54, 0.744);
+    margin: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 51px 8px rgba(20, 194, 200, 0.994);
+    -moz-box-shadow: 0px 0px 51px 8px rgba(20, 194, 200, 0.994);
+    box-shadow: 0px 0px 30px 8px rgba(20, 194, 200, 0.994);
+    @include m.sm {
+      margin: 1;
+      margin-bottom: 20%;
+      padding-left: 5%;
+    padding-right: 5%;
+    }
+    @include m.md {
+      margin-bottom: 15%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-left: 2%;
+    padding-right: 2%;
+      width: 25%;
+    }
+    @include m.lg {
+      padding-left: 1%;
+      padding-right: 1%;
+      margin: 3%;
+      width: 20%;
+    }
+  }
+
+  .tools {
+    position: relative;
+    background-color: rgba(54, 54, 54, 0.744);
+    margin: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 51px 8px rgba(20, 194, 200, 0.994);
+    -moz-box-shadow: 0px 0px 51px 8px rgba(20, 194, 200, 0.994);
+    box-shadow: 0px 0px 30px 8px rgba(20, 194, 200, 0.994);
+    @include m.sm {
+      margin: 1%;
+      margin-bottom: 2%;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    @include m.md {
+      margin-bottom: -5%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-left: 3%;
+    padding-right: 3%;
+      width: 25%;
+    }
+    @include m.lg {
+      padding-left: 1%;
+      padding-right: 1%;
+      width: 20%;
+    }
+  }
 
     .icons {
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
@@ -91,9 +155,9 @@ h1 {
     }
     legend {
       color: white;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
-      font-size: 1.2em;
-      margin-left: 50px;
+      font-family: "Segoe";
+      font-size: 1.5em;
+      margin-left: 20px;
     }
-  }
+  
 }
