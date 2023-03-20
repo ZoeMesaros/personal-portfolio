@@ -37,8 +37,7 @@ export const Contact = () => {
             onChange={handleChange}
           />
           <label htmlFor="message">Message</label>
-          <input
-            type="text"
+          <textarea
             id="message"
             name="message"
             value={toSend.message}
