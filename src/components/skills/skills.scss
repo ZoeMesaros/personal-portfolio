@@ -26,10 +26,14 @@
 h1 {
   position: relative;
   padding: 5%;
+  padding-top: 60px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: "Segoe";
   color: white;
+  @include m.md {
+    font-size: 2em;
+  }
 }
 
 .container {
@@ -91,14 +95,14 @@ h1 {
       margin: 1;
       margin-bottom: 20%;
       padding-left: 5%;
-    padding-right: 5%;
+      padding-right: 5%;
     }
     @include m.md {
       margin-bottom: 15%;
       margin-left: 15%;
       margin-right: 15%;
       padding-left: 2%;
-    padding-right: 2%;
+      padding-right: 2%;
       width: 25%;
     }
     @include m.lg {
@@ -130,7 +134,7 @@ h1 {
       margin-left: 15%;
       margin-right: 15%;
       padding-left: 3%;
-    padding-right: 3%;
+      padding-right: 3%;
       width: 25%;
     }
     @include m.lg {
@@ -141,24 +145,23 @@ h1 {
     }
   }
 
-    .icons {
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
-      color: white;
-      margin: 15%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-around;
-      i {
-        padding-left: 12%;
-        padding-right: 12%;
-      }
+  .icons {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+    color: white;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    i {
+      padding-left: 12%;
+      padding-right: 12%;
     }
-    legend {
-      color: white;
-      font-family: "Segoe";
-      font-size: 1.5em;
-      margin-left: 20px;
-    }
-  
+  }
+  legend {
+    color: white;
+    font-family: "Segoe";
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
 }

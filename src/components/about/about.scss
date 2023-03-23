@@ -30,9 +30,13 @@
       h1 {
         border: 0;
         margin: 15px;
-        font-size: 2em;
+        padding-top: 60%;
+        font-size: 1.5em;
         font-family: "Segoe";
         color: white;
+        @include m.sm {
+          font-size: 2em;
+        }
         @include m.md {
           font-size: 3em;
         }
@@ -44,7 +48,10 @@
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
       padding: 5%;
-      font-size: 1.2em;
+      font-size: 0.9em;
+      @include m.sm {
+        font-size: 1.2em;
+      }
       @include m.md {
         padding: 10%;
       }

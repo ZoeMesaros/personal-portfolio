@@ -96,6 +96,28 @@
         }
       }
     }
+    .profileImg {
+      margin-bottom: 25%;
+      position: absolute;
+      padding-left: 7%;
+      padding-top: 10%;
+      width: 70%;
+      @include m.md {
+        padding-left: 10%;
+        padding-top: 2%;
+        width: 50%;
+      }
+      @include m.lg {
+        padding-left: 10%;
+        padding-top: 2%;
+        width: 40%;
+      }
+      @include m.xl {
+        padding-left: 11%;
+        padding-top: 1%;
+        width: 45%;
+      }
+    }
     .neonDev {
       padding-top: 120%;
       position: absolute;

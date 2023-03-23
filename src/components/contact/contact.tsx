@@ -26,7 +26,7 @@ export const Contact = () => {
   };
   return (
     <section id="contact">
-      <h1>Contact me!</h1>
+      <h1>Send me a message</h1>
       <div className="container">
         <form id="formContact" onSubmit={onSubmit}>
           <label htmlFor="from_name">Name</label>

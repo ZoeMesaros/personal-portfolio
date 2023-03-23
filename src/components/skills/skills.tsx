@@ -9,12 +9,12 @@ export const Skills = () => {
         <fieldset className="front">
           <legend>Frontend</legend>
           <p className="icons">
-            <i className="fa-brands fa-html5 fa-xl"></i>
-            <i className="fa-brands fa-css3-alt fa-xl"></i>
-            <i className="fa-brands fa-sass fa-xl"></i>
-            <i className="fa-brands fa-js fa-lg"></i>
+            <i className="fa-brands fa-html5 fa-sm"></i>
+            <i className="fa-brands fa-css3-alt fa-sm"></i>
+            <i className="fa-brands fa-sass fa-sm"></i>
+            <i className="fa-brands fa-js fa-sm"></i>
             <i className="fi fi-brands-typescript"></i>
-            <i className="fa-brands fa-react fa-xl"></i>
+            <i className="fa-brands fa-react fa-sm"></i>
           </p>
         </fieldset>
         <fieldset className="back">
@@ -26,8 +26,8 @@ export const Skills = () => {
         <fieldset className="tools">
           <legend>Tools</legend>
           <p className="icons">
-            <i className="fa-brands fa-figma fa-xl"></i>
-            <i className="fa-brands fa-git-alt fa-xl"></i>
+            <i className="fa-brands fa-figma fa-sm"></i>
+            <i className="fa-brands fa-git-alt fa-sm"></i>
             <i className="fi fi-brands-photoshop"></i>
           </p>
         </fieldset>
