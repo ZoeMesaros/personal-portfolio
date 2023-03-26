@@ -1,5 +1,3 @@
-import React from "react";
-import { Fieldset } from "primereact/fieldset";
 import "./about.scss";
 
 export const AboutMe = () => {
@@ -8,7 +6,7 @@ export const AboutMe = () => {
       <div className="textContainer">
         <fieldset>
           <legend>
-            <h1>Hi There!</h1>
+            <h1>Hello!</h1>
           </legend>
           <p>
             My name is Zoë, I'm a developer student at Medieinstitutet in

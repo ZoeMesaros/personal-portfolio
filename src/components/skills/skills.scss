@@ -4,7 +4,7 @@
 #skills {
   z-index: -1;
   position: relative;
-  background-image: url(../../assets/green-monstera.jpg);
+  background-image: url(../../assets/homepage/green-monstera.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -33,6 +33,9 @@ h1 {
   color: white;
   @include m.md {
     font-size: 2em;
+  }
+  @include m.lg {
+    margin-top: 2%;
   }
 }
 

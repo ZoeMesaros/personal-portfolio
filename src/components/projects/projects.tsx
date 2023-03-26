@@ -1,8 +1,14 @@
-import React from "react";
-import { Carousel } from "@sefailyasoz/react-carousel";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "./projects.scss";
+import { projectData } from "./projects-data";
+import { getImageUrl } from "./utils";
 
 export const Projects = () => {
-  return <section id="projects"></section>;
+  const projectItems = projectData.map((project) => {
+    return (
+      <a key={project.id} href={project.url} target="_blank">
+        <img src={project.imgSrc} />
+      </a>
+    );
+  });
+  return <section id="projects">{projectItems}</section>;
 };

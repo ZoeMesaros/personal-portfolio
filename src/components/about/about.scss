@@ -40,6 +40,9 @@
         @include m.md {
           font-size: 3em;
         }
+        @include m.lg {
+          padding-top: 30%;
+        }
       }
     }
     p {

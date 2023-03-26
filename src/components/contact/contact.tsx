@@ -27,6 +27,26 @@ export const Contact = () => {
   return (
     <section id="contact">
       <h1>Send me a message</h1>
+      <ul className="links">
+        <li className="links-li">
+          <a
+            href="https://docs.google.com/document/d/1NjCYVMQfduoGCQ_GD-19v7oJkVxnZqK18x-jojlRQjc/export?format=pdf"
+            target="_blank"
+          >
+            Download my CV
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/zoe-km/" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/ZoeMesaros" target="_blank">
+            Github
+          </a>
+        </li>
+      </ul>
       <div className="container">
         <form id="formContact" onSubmit={onSubmit}>
           <label htmlFor="from_name">Name</label>

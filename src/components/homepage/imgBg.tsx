@@ -1,7 +1,7 @@
-import helloImg from "../../assets/hello.png";
-import neonName from "../../assets/neonName.png";
-import profileImg from "../../assets/profile.png";
-import neonDev from "../../assets/devBlue.png";
+import helloImg from "../../assets/homepage/hello.png";
+import neonName from "../../assets/homepage/neonName.png";
+import profileImg from "../../assets/homepage/profile.png";
+import neonDev from "../../assets/homepage/devBlue.png";
 import { SocialMediaLinks } from "./socialLinks";
 
 export const BgImg = () => {
@@ -18,7 +18,7 @@ export const BgImg = () => {
           <img
             className="profileImg"
             src={profileImg}
-            alt="Profile picture of Zoë"
+            alt="Web developer Zoë"
           />
         </figure>
         <figure className="neonDev">
