@@ -3,3 +3,33 @@
   height: 100vh;
   background-color: rgb(81, 81, 81);
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+}
+
+.projectCard {
+  margin-top: 45px;
+  margin-left: 18%;
+  img {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .desc {
+    position: absolute;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 22.6%;
+    transform: translateY(-15px);
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+  }
+}
