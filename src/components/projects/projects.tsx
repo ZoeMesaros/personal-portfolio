@@ -6,7 +6,7 @@ export const Projects = () => {
   const projectItems = projectData.map((project) => {
     return (
       <a key={project.id} href={project.url} target="_blank">
-        <img src={project.imgSrc} />
+        <img src={getImageUrl(project.imgSrc)} />
       </a>
     );
   });

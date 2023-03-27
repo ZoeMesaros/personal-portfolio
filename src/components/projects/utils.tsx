@@ -1,3 +1,3 @@
-export function getImageUrl(project: { imgSrc: string }) {
-  return "../../assets/projects/" + project.imgSrc;
+export function getImageUrl(imgSrc: string) {
+  return "../../assets/projects/" + imgSrc;
 }
