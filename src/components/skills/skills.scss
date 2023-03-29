@@ -23,9 +23,10 @@
   background-color: rgba(54, 50, 50, 0.54);
 }
 
-h1 {
+.skillsHeader {
   position: relative;
-  padding-top: 60px;
+  padding-top: 15px;
+  margin-bottom: 4%;
   text-align: center;
   font-size: 1.4em;
   font-family: "Segoe";
@@ -34,7 +35,7 @@ h1 {
     font-size: 2em;
   }
   @include m.lg {
-    margin-top: 1%;
+    padding-top: 5%;
   }
 }
 
@@ -76,9 +77,9 @@ h1 {
       width: 25%;
     }
     @include m.lg {
-      padding-left: 5%;
-      padding-right: 5%;
-      margin: 3%;
+      padding-left: 7%;
+      padding-right: 7%;
+      margin: 5%;
       width: 20%;
     }
   }

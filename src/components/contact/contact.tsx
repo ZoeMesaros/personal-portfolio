@@ -26,7 +26,7 @@ export const Contact = () => {
   };
   return (
     <section id="contact">
-      <h1>Send me a message</h1>
+      <h1 className="contactHeader">Send me a message</h1>
       <ul className="links">
         <li className="links-li">
           <a
