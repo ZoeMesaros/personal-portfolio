@@ -15,7 +15,7 @@ export const Contact = () => {
     send("service_436coyf", "template_t1h9n1h", toSend, "6EjXbd1gFDjKfjaGs")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        alert("Ditt meddelande har skickats");
+        alert("Message sent");
       })
       .catch((err) => {
         console.log("FAILED...", err);

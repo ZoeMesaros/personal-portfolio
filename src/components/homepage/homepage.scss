@@ -28,7 +28,7 @@
     margin-bottom: 55%;
   }
   @include m.lg {
-    margin: 0;
+    margin-bottom: 40%;
   }
   .wrapper {
     position: absolute;
@@ -46,23 +46,27 @@
       height: 120%;
     }
     @include m.lg {
-      height: 100%;
+      height: 105%;
     }
     .helloText {
       margin-bottom: 40%;
       position: absolute;
       z-index: 1;
-      padding-left: 15%;
-      @include m.md {
-        padding-left: 28%;
+      margin-right: 30%;
+      @include m.lg {
+        padding-top: 1%;
+        padding-left: 10%;
       }
       @include m.xl {
         padding-top: 2%;
-        padding-left: 22%;
+        padding-left: 8%;
       }
       img {
         width: 35%;
         @include m.md {
+          width: 20%;
+        }
+        @include m.lg {
           width: 20%;
         }
       }
@@ -73,15 +77,15 @@
       z-index: 1;
       padding-left: 5%;
       @include m.md {
-        padding-left: 25%;
+        padding-left: 10%;
         margin-bottom: 30%;
       }
       @include m.lg {
-        padding-left: 20%;
+        padding-left: 8%;
         margin-bottom: 32%;
       }
       @include m.xl {
-        padding-left: 18%;
+        padding-left: 0;
       }
       img {
         width: 98%;
@@ -89,7 +93,7 @@
           width: 74%;
         }
         @include m.lg {
-          width: 65%;
+          width: 55%;
         }
         @include m.xl {
           width: 67%;
@@ -97,23 +101,23 @@
       }
     }
     .profileImg {
-      margin-bottom: 25%;
+      margin-bottom: 23%;
       position: absolute;
-      padding-left: 7%;
+      margin-left: -17%;
       padding-top: 10%;
       width: 70%;
       @include m.md {
-        padding-left: 10%;
+        padding-left: 8%;
         padding-top: 2%;
         width: 50%;
       }
       @include m.lg {
-        padding-left: 10%;
+        padding-left: 8%;
         padding-top: 2%;
-        width: 40%;
+        width: 50%;
       }
       @include m.xl {
-        padding-left: 11%;
+        padding-left: 6%;
         padding-top: 1%;
         width: 45%;
       }
@@ -122,22 +126,25 @@
       padding-top: 120%;
       position: absolute;
       z-index: 1;
-      padding-left: 20%;
+      padding-left: 10%;
       @include m.md {
         padding-top: 45%;
-        padding-left: 30%;
       }
       @include m.lg {
-        padding-top: 32%;
-        padding-left: 25%;
+        padding-top: 43%;
+        padding-left: 12%;
       }
       @include m.xl {
-        padding-left: 28%;
+        padding-top: 32%;
+        padding-left: 1%;
       }
       img {
         width: 80%;
         @include m.md {
           width: 60%;
+        }
+        @include m.lg {
+          width: 50%;
         }
         @include m.xl {
           width: 55%;
@@ -154,6 +161,7 @@
       height: 5%;
       @include m.md {
         padding-top: 50%;
+        padding-left: 8%;
       }
       @include m.lg {
         position: absolute;
@@ -166,7 +174,7 @@
         height: 40%;
       }
       @include m.xl {
-        margin-left: 35%;
+        margin-left: 30%;
       }
       .smallLinks {
         padding: 50%;

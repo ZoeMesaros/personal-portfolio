@@ -21,6 +21,7 @@ export const Skills = () => {
           <legend>Backend</legend>
           <p className="icons">
             MySQL Workbench<i className="fi fi-brands-mysql"></i>
+            <i className="fa-brands fa-node fa-xl"></i>
           </p>
         </fieldset>
         <fieldset className="tools">

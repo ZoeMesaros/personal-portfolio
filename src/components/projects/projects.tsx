@@ -8,8 +8,8 @@ export const Projects = () => {
       <div key={project.id} className="projectCard">
         <a href={project.url} target="_blank">
           <img src={getImageUrl(project.imgSrc)} />
-          <p className="desc">{project.desc}</p>
         </a>
+        <p className="desc">{project.desc}</p>
       </div>
     );
   });

@@ -9,17 +9,9 @@
 
 .textContainer {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 10%;
-  max-width: 60%;
-  min-height: 50%;
-  background-color: rgb(54, 54, 54);
-  @include m.lg {
-    padding: 10%;
-  }
-  @include m.xl {
-    padding: 10%;
+  @include m.md {
+    padding-left: 15%;
+    padding-right: 15%;
   }
   fieldset {
     border-radius: 8px;
@@ -49,6 +41,9 @@
         @include m.lg {
           padding-top: 30%;
         }
+        @include m.xl {
+          padding-top: 45%;
+        }
       }
     }
     p {
@@ -67,26 +62,3 @@
     }
   }
 }
-
-/* 
-.outer-border-box {
-  transform: translateY(70%);
-  border: 2px solid black;
-  border-top: 3px solid black;
-}
-
-.label-source-box {
-  padding: 0 3px;
-  height: 100px;
-  margin-top: -0.8em;
-}
-
-.box-title {
-  background: white none repeat scroll 0 0;
-  padding: 0 2px;
-  margin-left: 4em;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: "Avenir Next", Helvetica, sans-serif;
-}
- */
