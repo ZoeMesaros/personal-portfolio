@@ -11,12 +11,15 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 6%;
+  padding: 10%;
   max-width: 60%;
   min-height: 50%;
   background-color: rgb(54, 54, 54);
   @include m.lg {
-    padding: 2%;
+    padding: 10%;
+  }
+  @include m.xl {
+    padding: 10%;
   }
   fieldset {
     border-radius: 8px;

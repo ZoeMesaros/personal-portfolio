@@ -5,8 +5,8 @@ import { getImageUrl } from "./utils";
 export const Projects = () => {
   const projectItems = projectData.map((project) => {
     return (
-      <div className="projectCard">
-        <a key={project.id} href={project.url} target="_blank">
+      <div key={project.id} className="projectCard">
+        <a href={project.url} target="_blank">
           <img src={getImageUrl(project.imgSrc)} />
           <p className="desc">{project.desc}</p>
         </a>

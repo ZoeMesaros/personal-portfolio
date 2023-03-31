@@ -15,6 +15,7 @@ export const Contact = () => {
     send("service_436coyf", "template_t1h9n1h", toSend, "6EjXbd1gFDjKfjaGs")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
+        alert("Ditt meddelande har skickats");
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -65,12 +66,13 @@ export const Contact = () => {
           />
           <label htmlFor="reply_to">Email</label>
           <input
-            type="text"
+            type="email"
             name="reply_to"
             value={toSend.reply_to}
             onChange={handleChange}
+            required
           />
-          <button id="contact-submit" type="submit" data-submit="...Skickar">
+          <button id="contact-submit" type="submit">
             Send
           </button>
         </form>

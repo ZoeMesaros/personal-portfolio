@@ -37,6 +37,13 @@
   justify-content: space-evenly;
   margin-top: -15px;
   padding-bottom: 20px;
+  a {
+    text-decoration: none;
+    color: #d806ae;
+  }
+  @include m.xl {
+    padding-bottom: 60px;
+  }
 }
 
 label {
@@ -45,6 +52,7 @@ label {
 }
 
 input[type="text"],
+input[type="email"],
 select {
   width: 100%;
   padding: 12px 1px;

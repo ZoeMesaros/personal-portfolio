@@ -15,6 +15,7 @@
   font-family: "Segoe";
   color: white;
   @include m.md {
+    padding-top: 5%;
     font-size: 2em;
   }
   @include m.lg {
@@ -25,30 +26,42 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(348px, 1fr));
-  gap: 2.5em;
+  gap: 5em;
+  @include m.md {
+    gap: 5.5em;
+  }
+  @include m.xl {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 5em;
+  }
 }
 
 .projectCard {
   margin-top: 5px;
-  margin-left: 18%;
+  padding-left: 5%;
   img {
     position: relative;
     z-index: 2;
-    width: 90%;
+    width: 50%;
     border-radius: 20px 20px 0px 0px;
   }
   .desc {
     position: absolute;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    width: 21.3%;
+    width: 77%;
     transform: translateY(-15px);
-    padding: 15px;
+    padding: 5px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     border-radius: 15px;
     background-color: white;
     color: black;
-    font-size: 1rem;
+    font-size: 0.7rem;
+    @include m.md {
+      width: 30.5%;
+    }
+    @include m.xl {
+      width: 20.3%;
+    }
   }
 }
