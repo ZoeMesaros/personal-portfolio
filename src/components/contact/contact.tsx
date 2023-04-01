@@ -10,15 +10,17 @@ export const Contact = () => {
     reply_to: "",
   });
 
+  const [success, setSuccess] = useState(false);
+  const [failed, setFailed] = useState(false);
+
   const onSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     send("service_436coyf", "template_t1h9n1h", toSend, "6EjXbd1gFDjKfjaGs")
       .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
-        alert("Message sent");
+        setSuccess(true);
       })
       .catch((err) => {
-        console.log("FAILED...", err);
+        setFailed(true);
       });
   };
 
@@ -75,6 +77,22 @@ export const Contact = () => {
           <button id="contact-submit" type="submit">
             Send
           </button>
+          <div
+            className="submit-success"
+            style={{
+              display: success ? "block" : "none",
+            }}
+          >
+            <p>Your message was sent!🎉</p>
+          </div>
+          <div
+            className="submit-error"
+            style={{
+              display: failed ? "block" : "none",
+            }}
+          >
+            <p>There was an error</p>
+          </div>
         </form>
       </div>
     </section>
