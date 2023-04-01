@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zoemesaros.github.io/static/css/main.b6f78f2a.css",
+    "main.js": "/zoemesaros.github.io/static/js/main.49070040.js",
+    "static/js/787.fb771931.chunk.js": "/zoemesaros.github.io/static/js/787.fb771931.chunk.js",
+    "static/media/monstera-leafy.jpg": "/zoemesaros.github.io/static/media/monstera-leafy.702c8bbfe2c2eccca105.jpg",
+    "static/media/green-monstera.jpg": "/zoemesaros.github.io/static/media/green-monstera.6d30fc9287d6d61baa7c.jpg",
+    "static/media/profile.png": "/zoemesaros.github.io/static/media/profile.a034ad1f2ad7b3cdc021.png",
+    "static/media/seguibli.ttf": "/zoemesaros.github.io/static/media/seguibli.4e12226ecdd82f607c98.ttf",
+    "static/media/neonName.png": "/zoemesaros.github.io/static/media/neonName.21c59be7c42b139be8d5.png",
+    "static/media/devBlue.png": "/zoemesaros.github.io/static/media/devBlue.410956ffb5d09ab1156f.png",
+    "static/media/hello.png": "/zoemesaros.github.io/static/media/hello.88b91f221df8f968ebc3.png",
+    "index.html": "/zoemesaros.github.io/index.html",
+    "main.b6f78f2a.css.map": "/zoemesaros.github.io/static/css/main.b6f78f2a.css.map",
+    "main.49070040.js.map": "/zoemesaros.github.io/static/js/main.49070040.js.map",
+    "787.fb771931.chunk.js.map": "/zoemesaros.github.io/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6f78f2a.css",
+    "static/js/main.49070040.js"
+  ]
+}
