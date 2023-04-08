@@ -1,7 +1,7 @@
 {
   "name": "zoemesaros.github.io",
   "version": "0.1.0",
-  "homepage": "http://zoemesaros.github.io/zoemesaros.github.io",
+  "homepage": "http://zoemesaros.github.io",
   "private": true,
   "dependencies": {
     "@sefailyasoz/react-carousel": "^1.1.1",
