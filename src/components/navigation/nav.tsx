@@ -4,32 +4,32 @@ const NavLinks = [
   {
     Id: 0,
     Name: "#home",
-    IconName: "fa-solid fa-house fa-sm",
-    IconNameSmall: "fa-solid fa-house fa-xs",
+    IconName: "fa-solid fa-house",
+    IconNameSmall: "fa-solid fa-house fa-sm",
   },
   {
     Id: 1,
     Name: "#about",
-    IconName: "fa-solid fa-circle-user fa-xs",
-    IconNameSmall: "fa-solid fa-circle-user fa-xxs",
+    IconName: "fa-solid fa-circle-user",
+    IconNameSmall: "fa-solid fa-circle-user fa-xs",
   },
   {
     Id: 2,
     Name: "#skills",
-    IconName: "fa-solid fa-star fa-sm",
-    IconNameSmall: "fa-solid fa-star fa-xs",
+    IconName: "fa-solid fa-star",
+    IconNameSmall: "fa-solid fa-star fa-sm",
   },
   {
     Id: 3,
     Name: "#projects",
-    IconName: "fa-solid fa-pen-to-square fa-sm",
-    IconNameSmall: "fa-solid fa-pen-to-square fa-xs",
+    IconName: "fa-solid fa-pen-to-square",
+    IconNameSmall: "fa-solid fa-pen-to-square fa-sm",
   },
   {
     Id: 4,
     Name: "#contact",
-    IconName: "fa-solid fa-envelope fa-sm",
-    IconNameSmall: "fa-solid fa-envelope fa-xs",
+    IconName: "fa-solid fa-envelope",
+    IconNameSmall: "fa-solid fa-envelope fa-sm",
   },
 ];
 

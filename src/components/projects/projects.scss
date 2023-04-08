@@ -21,6 +21,10 @@
   @include m.lg {
     padding-top: 4%;
   }
+  @include m.xl {
+    padding-top: 4%;
+    font-size: 4em;
+  }
 }
 
 .wrapper {
