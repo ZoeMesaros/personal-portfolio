@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/zoemesaros.github.io/static/css/main.b6f78f2a.css",
-    "main.js": "/zoemesaros.github.io/static/js/main.d7b406fb.js",
-    "static/js/787.5db39a1c.chunk.js": "/zoemesaros.github.io/static/js/787.5db39a1c.chunk.js",
-    "static/media/monstera-leafy.jpg": "/zoemesaros.github.io/static/media/monstera-leafy.702c8bbfe2c2eccca105.jpg",
-    "static/media/green-monstera.jpg": "/zoemesaros.github.io/static/media/green-monstera.6d30fc9287d6d61baa7c.jpg",
-    "static/media/profile.png": "/zoemesaros.github.io/static/media/profile.a034ad1f2ad7b3cdc021.png",
-    "static/media/seguibli.ttf": "/zoemesaros.github.io/static/media/seguibli.4e12226ecdd82f607c98.ttf",
-    "static/media/neonName.png": "/zoemesaros.github.io/static/media/neonName.21c59be7c42b139be8d5.png",
-    "static/media/devBlue.png": "/zoemesaros.github.io/static/media/devBlue.410956ffb5d09ab1156f.png",
-    "static/media/hello.png": "/zoemesaros.github.io/static/media/hello.88b91f221df8f968ebc3.png",
-    "index.html": "/zoemesaros.github.io/index.html",
-    "main.b6f78f2a.css.map": "/zoemesaros.github.io/static/css/main.b6f78f2a.css.map",
-    "main.d7b406fb.js.map": "/zoemesaros.github.io/static/js/main.d7b406fb.js.map",
-    "787.5db39a1c.chunk.js.map": "/zoemesaros.github.io/static/js/787.5db39a1c.chunk.js.map"
+    "main.css": "/static/css/main.c6303299.css",
+    "main.js": "/static/js/main.c7df0477.js",
+    "static/js/787.5db39a1c.chunk.js": "/static/js/787.5db39a1c.chunk.js",
+    "static/media/monstera-leafy.jpg": "/static/media/monstera-leafy.702c8bbfe2c2eccca105.jpg",
+    "static/media/green-monstera.jpg": "/static/media/green-monstera.6d30fc9287d6d61baa7c.jpg",
+    "static/media/profile.png": "/static/media/profile.a034ad1f2ad7b3cdc021.png",
+    "static/media/seguibli.ttf": "/static/media/seguibli.4e12226ecdd82f607c98.ttf",
+    "static/media/neonName.png": "/static/media/neonName.21c59be7c42b139be8d5.png",
+    "static/media/devBlue.png": "/static/media/devBlue.410956ffb5d09ab1156f.png",
+    "static/media/hello.png": "/static/media/hello.88b91f221df8f968ebc3.png",
+    "index.html": "/index.html",
+    "main.c6303299.css.map": "/static/css/main.c6303299.css.map",
+    "main.c7df0477.js.map": "/static/js/main.c7df0477.js.map",
+    "787.5db39a1c.chunk.js.map": "/static/js/787.5db39a1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6f78f2a.css",
-    "static/js/main.d7b406fb.js"
+    "static/css/main.c6303299.css",
+    "static/js/main.c7df0477.js"
   ]
 }
