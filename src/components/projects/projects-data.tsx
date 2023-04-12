@@ -42,4 +42,11 @@ export const projectData: IProjectData[] = [
     imgSrc: "react-restaurang.png",
     url: "https://github.com/ZoeMesaros/Uppgift-restaurang",
   },
+  {
+    id: 5,
+    name: "Movie App",
+    desc: "Backend application to display and add movies using express",
+    imgSrc: "movies.png",
+    url: "https://github.com/NatasaIc/fullstack-applikation-express",
+  },
 ];

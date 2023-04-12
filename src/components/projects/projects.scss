@@ -9,34 +9,41 @@
 
 .projectsHeader {
   position: relative;
+  padding-top: 10%;
   margin-bottom: 4%;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.7em;
   font-family: "Segoe";
   color: white;
-  @include m.md {
-    padding-top: 5%;
+  @include m.sm {
     font-size: 2em;
+    padding-top: 7%;
+  }
+  @include m.md {
+    padding-top: 7%;
+    font-size: 2.5em;
   }
   @include m.lg {
-    padding-top: 4%;
+    padding-top: 8%;
+    font-size: 3em;
+    margin-bottom: 0;
   }
   @include m.xl {
     padding-top: 4%;
     font-size: 4em;
+    margin-bottom: 1%;
   }
 }
 
 .wrapper {
   position: absolute;
   text-align: center;
-  transform: translateX(2.7%);
-  padding-top: 3%;
-  width: 95%;
+  padding-top: 15%;
+  width: 100%;
   height: 70vh;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(1, 223px);
+  grid-template-columns: repeat(2, 200px);
   @include m.sm {
     gap: 5%;
     grid-template-columns: repeat(2, 45%);
@@ -46,8 +53,16 @@
     grid-template-columns: repeat(3, 30%);
   }
   @include m.lg {
+    width: 98%;
     gap: 0;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(3, 30%);
+    transform: translateX(3%);
+  }
+  @include m.xl {
+    gap: 0;
+    width: 95%;
+    padding-top: 4%;
+    grid-template-columns: repeat(3, 32%);
   }
 }
 
@@ -65,10 +80,7 @@
       width: 85%;
     }
     @include m.lg {
-      width: 80%;
-    }
-    @include m.xl {
-      background-color: red;
+      width: 84%;
     }
   }
   .desc {
@@ -89,13 +101,15 @@
       width: 96%;
     }
     @include m.md {
+      font-size: 0.8rem;
       width: 81%;
     }
     @include m.lg {
-      width: 77.3%;
+      font-size: 1.1rem;
+      width: 81.4%;
     }
     @include m.xl {
-      width: 77.9%;
+      width: 82.7%;
     }
   }
 }

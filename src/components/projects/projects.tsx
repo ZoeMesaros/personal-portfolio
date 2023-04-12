@@ -15,7 +15,7 @@ export const Projects = () => {
   });
   return (
     <section id="projects">
-      <h1 className="projectsHeader">My projects</h1>
+      <h1 className="projectsHeader">Projects</h1>
       <div className="wrapper">{projectItems}</div>
     </section>
   );
