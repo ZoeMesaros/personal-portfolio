@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2644d9d0.css",
-    "main.js": "/static/js/main.b184e783.js",
+    "main.js": "/static/js/main.15450d10.js",
     "static/js/787.5db39a1c.chunk.js": "/static/js/787.5db39a1c.chunk.js",
     "static/media/monstera-leafy.jpg": "/static/media/monstera-leafy.702c8bbfe2c2eccca105.jpg",
     "static/media/green-monstera.jpg": "/static/media/green-monstera.6d30fc9287d6d61baa7c.jpg",
@@ -12,11 +12,11 @@
     "static/media/hello.png": "/static/media/hello.88b91f221df8f968ebc3.png",
     "index.html": "/index.html",
     "main.2644d9d0.css.map": "/static/css/main.2644d9d0.css.map",
-    "main.b184e783.js.map": "/static/js/main.b184e783.js.map",
+    "main.15450d10.js.map": "/static/js/main.15450d10.js.map",
     "787.5db39a1c.chunk.js.map": "/static/js/787.5db39a1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2644d9d0.css",
-    "static/js/main.b184e783.js"
+    "static/js/main.15450d10.js"
   ]
 }
