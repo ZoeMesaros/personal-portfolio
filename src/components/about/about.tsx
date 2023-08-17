@@ -1,4 +1,5 @@
 import "./about.scss";
+import helloText from "../../assets/homepage/hello-site.png";
 
 export const AboutMe = () => {
   return (
@@ -6,18 +7,18 @@ export const AboutMe = () => {
       <div className="textContainer">
         <fieldset>
           <legend>
-            <h1>Hello!</h1>
+            <h1>
+              <img src={helloText} />
+            </h1>
           </legend>
           <p>
             My name is Zoë, I'm a developer student at Medieinstitutet in
             Stockholm specializing in E-commerce. Computers have always been
-            part of my life and is a big passion. I am always very engaged in
-            projects and never give up when faced with challenges, i applied for
-            a school teching Web development because i am always hungry to
-            learn. My school is providing basic knowledge in both back and
-            frontend development such as HTML, CSS/SCSS, JavaScript, Typescript,
-            API, Database, PHP and React. I am looking forward to growing my
-            skills and applying new knowledge.
+            part of my life and is a big passion. I joined this school because i
+            have always been fascinated with the web and how it works. My school
+            is providing basic knowledge in both back and frontend development
+            such as HTML, CSS/SCSS, JavaScript, Typescript, API, Database, PHP
+            and React.
             <br />
             <br />
             Currently looking for LIA internship for autumn 2023 Between

@@ -4,7 +4,7 @@
 #about {
   width: 100%;
   height: 100vh;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(255, 255, 255);
 }
 
 .textContainer {
@@ -34,34 +34,14 @@
   }
   fieldset {
     border-radius: 8px;
-    -webkit-box-shadow: 0px 0px 51px 8px rgba(245, 44, 232, 0.81);
-    -moz-box-shadow: 0px 0px 51px 8px rgba(245, 44, 232, 0.81);
-    box-shadow: 0px 0px 51px 8px rgba(245, 44, 232, 0.81);
+    border: 7px solid #f4c545;
     legend {
-      h1 {
-        border: 0;
-        margin: 15px;
-        padding-top: 60%;
-        font-size: 1.5em;
-        font-family: "Segoe";
-        color: white;
-        @include m.sm {
-          font-size: 2em;
-        }
-        @include m.md {
-          font-size: 3em;
-        }
-        @include m.lg {
-          padding-top: 50%;
-        }
-        @include m.xl {
-          font-size: 3.4em;
-          padding-left: 10%;
-        }
+      img {
+        width: 180px;
       }
     }
     p {
-      color: white;
+      color: rgb(0, 0, 0);
       line-height: 1.5em;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       padding: 5%;

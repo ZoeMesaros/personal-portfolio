@@ -1,10 +1,15 @@
 @use "../styles/mixins" as m;
 @use "../styles/variables" as v;
 
+@font-face {
+  font-family: ahunter;
+  src: url(../../fonts/anthonyhunter.ttf);
+}
+
 #skills {
   z-index: -1;
   position: relative;
-  background-image: url(../../assets/homepage/green-monstera.jpg);
+  background-image: url(../../assets/homepage/pink-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -32,8 +37,9 @@
   margin-bottom: 8%;
   text-align: center;
   font-size: 1.7em;
-  font-family: "Segoe";
-  color: white;
+  font-family: ahunter;
+  text-shadow: -3px 3px 0 #ffffff, 3px 3px 0 #ffffff;
+  color: #f4c545;
   @include m.sm {
     padding-top: 70px;
     font-size: 2em;

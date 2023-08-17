@@ -2,7 +2,7 @@
 @use "../styles/variables" as v;
 
 #home {
-  background-image: url(../../assets/homepage/monstera-leafy.jpg);
+  background-image: url(../../assets/homepage/pink-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -48,34 +48,7 @@
     @include m.md {
       height: 120%;
     }
-
-    .helloText {
-      margin-bottom: 40%;
-      position: absolute;
-      z-index: 1;
-      margin-right: 50%;
-      @include m.lg {
-        margin-top: 5%;
-        margin-left: 20%;
-      }
-      @include m.xl {
-        margin-left: 28%;
-        margin-top: 14%;
-      }
-      img {
-        width: 60%;
-        @include m.md {
-          width: 40%;
-        }
-        @include m.lg {
-          width: 48%;
-        }
-        @include m.xl {
-          width: 44%;
-        }
-      }
-    }
-    .neonText {
+    .nameText {
       margin-bottom: 25%;
       position: absolute;
       z-index: 1;
@@ -86,10 +59,10 @@
       img {
         width: 100%;
         @include m.md {
-          width: 80%;
+          width: 65%;
         }
         @include m.xl {
-          width: 90%;
+          width: 40%;
         }
       }
     }
@@ -114,18 +87,18 @@
         width: 45%;
       }
     }
-    .neonDev {
+    .devName {
       padding-top: 150%;
       position: absolute;
       z-index: 1;
       @include m.md {
-        padding-top: 87%;
+        padding-top: 91%;
       }
       @include m.lg {
         margin-right: -2%;
       }
       @include m.xl {
-        padding-top: 50%;
+        padding-top: 53%;
         margin-right: -1%;
       }
       img {
@@ -137,7 +110,7 @@
           width: 65%;
         }
         @include m.xl {
-          width: 70%;
+          width: 40%;
         }
       }
     }
