@@ -4,17 +4,17 @@
 #projects {
   width: 100%;
   height: 100vh;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(255, 255, 255);
 }
-
 .projectsHeader {
   position: relative;
   padding-top: 10%;
   margin-bottom: 4%;
   text-align: center;
   font-size: 1.7em;
-  font-family: "Segoe";
-  color: white;
+  font-family: ahunter;
+  font-size: 50px;
+  color: #f4c545;
   @include m.sm {
     font-size: 2em;
     padding-top: 7%;
@@ -35,18 +35,63 @@
   }
 }
 
+.projText {
+  position: relative;
+  padding-top: 2%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #f4c545;
+  @include m.xs {
+    font-size: 14px;
+    padding-top: 6%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  @include m.sm {
+    font-size: 14px;
+    padding-top: 3%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  @include m.md {
+    font-size: 14px;
+    padding-top: 3%;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1em;
+  }
+  @include m.lg {
+    padding-top: 3%;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  @include m.xl {
+    padding-top: 3%;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    margin-bottom: 1%;
+  }
+}
+
 .wrapper {
   position: absolute;
   text-align: center;
-  padding-top: 15%;
+  padding-top: 4%;
   width: 100%;
   height: 70vh;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 200px);
   @include m.sm {
+    padding-top: 1%;
     gap: 5%;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: repeat(2, 30%);
   }
   @include m.md {
     gap: 1%;
@@ -60,15 +105,17 @@
   }
   @include m.xl {
     gap: 0;
-    width: 95%;
-    padding-top: 4%;
-    grid-template-columns: repeat(3, 32%);
+    width: 100%;
+    padding-top: 1%;
+    grid-template-columns: repeat(3, 25%);
   }
 }
 
 .projectCard {
   height: 70%;
+
   img {
+    border: 2px solid #f4c545;
     position: relative;
     z-index: 2;
     width: 60%;
@@ -84,7 +131,8 @@
     }
   }
   .desc {
-    background-color: white;
+    font-style: italic;
+    background-color: rgb(244, 203, 211);
     text-align: center;
     margin: 0 auto;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -94,9 +142,8 @@
     padding-top: 25px;
     padding-bottom: 15px;
     border-radius: 15px;
-    background-color: white;
-    color: black;
-    font-size: 0.7rem;
+    border: 2px solid #f4c545;
+    color: #000000;
     @include m.sm {
       width: 96%;
     }

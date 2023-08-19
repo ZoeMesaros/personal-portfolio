@@ -16,6 +16,9 @@ export const Projects = () => {
   return (
     <section id="projects">
       <h1 className="projectsHeader">Projects</h1>
+      <p className="projText">
+        The projects are ordered starting from the oldest to the most recent
+      </p>
       <div className="wrapper">{projectItems}</div>
     </section>
   );

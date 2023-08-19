@@ -4,7 +4,7 @@ import "./skills.scss";
 export const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="skillsHeader">Personal skills and tools</h1>
+      <h1 className="skillsHeader">Skills</h1>
       <div className="container">
         <fieldset className="front">
           <legend>Frontend</legend>
@@ -22,6 +22,7 @@ export const Skills = () => {
           <p className="icons">
             MySQL Workbench<i className="fi fi-brands-mysql"></i>
             <i className="fa-brands fa-node fa-2xl"></i>
+            <i className="fa-brands fa-php fa-2xl"></i>
           </p>
         </fieldset>
         <fieldset className="tools">

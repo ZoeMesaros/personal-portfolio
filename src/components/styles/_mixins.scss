@@ -1,5 +1,10 @@
 @use "variables" as v;
 
+@font-face {
+  font-family: ahunter;
+  src: url(../../fonts/anthonyhunter.ttf);
+}
+
 @mixin xs {
   @media (min-width: map-get(v.$breakpoints, "xs")) {
     @content;
