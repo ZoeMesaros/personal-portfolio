@@ -65,6 +65,7 @@
   }
   @include m.lg {
     padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 4px;
     padding-right: 4px;
     font-size: 20px;
@@ -72,6 +73,7 @@
   }
   @include m.xl {
     padding-top: 3%;
+    padding-bottom: 0;
     padding-left: 4px;
     padding-right: 4px;
     font-size: 20px;
@@ -89,9 +91,9 @@
   justify-content: center;
   grid-template-columns: repeat(2, 200px);
   @include m.sm {
-    padding-top: 1%;
+    padding-top: 0;
     gap: 5%;
-    grid-template-columns: repeat(2, 30%);
+    grid-template-columns: repeat(2, 20%);
   }
   @include m.md {
     gap: 1%;

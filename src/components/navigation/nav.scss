@@ -2,6 +2,7 @@
 @use "../styles/variables";
 
 .navUl {
+  z-index: 5;
   position: fixed;
   display: flex;
   align-items: center;
