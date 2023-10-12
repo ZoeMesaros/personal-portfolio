@@ -21,8 +21,8 @@ export const AboutMe = () => {
             and React.
             <br />
             <br />
-            Currently looking for LIA internship for autumn 2023 Between
-            2023-10-16 and 2023-12-24.
+            Currently looking for LIA internship for beginning of 2024 between
+            2024-02-05 and 2024-05-19.
           </p>
         </fieldset>
       </div>
