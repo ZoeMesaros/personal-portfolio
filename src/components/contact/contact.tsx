@@ -33,7 +33,7 @@ export const Contact = () => {
       <ul className="links">
         <li className="links-li">
           <a
-            href="https://docs.google.com/document/d/1NjCYVMQfduoGCQ_GD-19v7oJkVxnZqK18x-jojlRQjc/export?format=pdf"
+            href="https://drive.google.com/uc?export=download&id=1f3VbZTiiecNCGYEBa7ZUrCTlgIzJuWqC"
             target="_blank"
           >
             Download my CV

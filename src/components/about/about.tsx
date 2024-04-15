@@ -12,17 +12,25 @@ export const AboutMe = () => {
             </h1>
           </legend>
           <p>
-            My name is Zoë, I'm a developer student at Medieinstitutet in
-            Stockholm specializing in E-commerce. Computers have always been
-            part of my life and is a big passion. I joined this school because i
-            have always been fascinated with the web and how it works. My school
-            is providing basic knowledge in both back and frontend development
-            such as HTML, CSS/SCSS, JavaScript, Typescript, API, Database, PHP
-            and React.
+            My name is Zoe, and I'm a passionate web developer based in
+            Stockholm. I'm quickly approaching my graduation as a full-stack
+            developer from Medieinstitutet, specializing in web development
+            within e-commerce.
             <br />
             <br />
-            Currently looking for LIA internship for beginning of 2024 between
-            2024-02-05 and 2024-05-19.
+            Throughout my education, I've worked with a variety of programming
+            languages and technologies, including HTML, CSS/SCSS, JavaScript,
+            TypeScript, APIs, databases, PHP, Node.js, Express, React, and
+            Wordpress. My diverse experience prepares me to tackle new
+            challenges and continue developing my skills in web development.
+            <br />
+            <br />
+            I'm a creative problem-solver who loves taking on new challenges.
+            Building and designing websites is something I'm passionate about,
+            with a particular focus on frontend development.
+            <br />
+            <br />
+            To see examples of my projects click <a href="#projects">here.</a>
           </p>
         </fieldset>
       </div>

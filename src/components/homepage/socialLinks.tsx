@@ -3,7 +3,7 @@ const SocialLinks = [
     Id: 0,
     Name: "CV",
     iconName: "fa-solid fa-file-arrow-down fa-stack-1x fa-inverse",
-    Link: "https://docs.google.com/document/d/1NjCYVMQfduoGCQ_GD-19v7oJkVxnZqK18x-jojlRQjc/export?format=pdf",
+    Link: "https://drive.google.com/uc?export=download&id=1f3VbZTiiecNCGYEBa7ZUrCTlgIzJuWqC",
   },
   {
     Id: 1,
