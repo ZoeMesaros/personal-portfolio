@@ -1,7 +1,16 @@
 @import "../components/styles/mixins";
 @import "../components/styles/variables";
+@import "~bootstrap/scss/bootstrap";
 
-body {
-  background-color: rgb(54, 54, 54);
-  overflow-x: hidden;
+/* Colors */
+
+:root {
+  /*   Primary color  */
+  --primary-color: #f3af4e;
+
+  /* Secondary color */
+  --secondary-color: #f5abb8;
+
+  /* Accent color */
+  --accent-color: #f2f2f2;
 }
