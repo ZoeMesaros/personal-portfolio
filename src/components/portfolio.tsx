@@ -1,12 +1,12 @@
 import React from "react";
 import "./portfolio.scss";
 import "./reset/reset.scss";
-import { HomePage } from "./homepage/homepage";
+import { MainPage } from "./mainpage/MainPage";
 
 function Portfolio() {
   return (
     <div className="Portfolio">
-      <HomePage />
+      <MainPage />
     </div>
   );
 }

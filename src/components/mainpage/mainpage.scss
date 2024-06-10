@@ -1,14 +1,12 @@
 @use "../styles/mixins" as m;
 @use "../styles/variables" as v;
 
-#home {
-  background-image: url(../../assets/homepage/bg-pink.png);
+#main {
+  background-image: url(../../assets/mainpage/bg-pink.png);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
   height: 100vh;
   width: 100%;
   @include m.sm {
