@@ -15,14 +15,27 @@ export const IntroSection = () => {
     <main id="intro" className="mt-5">
       <Container fluid="lg">
         <Row>
-          <Col>
+          <Col xs={12} md={6}>
             <Image
               src={ProfileImg}
               roundedCircle
               style={{ width: "50%", height: "auto" }}
-            ></Image>
+            />
           </Col>
-          <Col xs={6}>2 of 2 (wider)</Col>
+          <Col xs={12} md={6}>
+            <p>Hej! Jag heter</p>
+            <p>Zoe KECELI MESAROS</p>
+            <p>
+              Jag är en fullstack utvecklare med en särskilld passion för
+              frontend & design
+            </p>
+            <Button variant="primary" className="ml-lg-auto">
+              Ladda ner CV
+            </Button>
+            <Button variant="primary" className="ml-lg-auto">
+              Säg hej
+            </Button>
+          </Col>
         </Row>
       </Container>
     </main>
