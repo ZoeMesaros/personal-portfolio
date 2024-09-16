@@ -13,8 +13,8 @@ export const AboutMe = () => {
           </legend>
           <p>
             My name is Zoe, and I'm a passionate web developer based in
-            Stockholm. I'm quickly approaching my graduation as a full-stack
-            developer from Medieinstitutet, specializing in web development
+            Stockholm. I'm a graduated full-stack
+            developer specializing in web development
             within e-commerce.
             <br />
             <br />
